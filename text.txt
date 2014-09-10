@@ -1,0 +1,212 @@
+
+
+if you are previewing this outline, the applicable images live in knoblau.ch/rejectjs/slides/slides.zip
+Punk DIY Ethics in Programming – Stop Following Blindly and Build Your Own God Damned Tools 
+
+
+
+Intro 0:30
+     1-title.png
+     Hello and thank you for coming. My name is Mouse Braun and this is Punk DIY 
+     ethics in programming or Stop Following Blindly and Build Your Own God Damned Tools.  
+     Let me start with a bit about my background.
+
+
+Mouse 4
+    + Traveler / Punk / Tech
+        0 I was born and raised in Milwaukee WI
+        0 I essentially taught my high school computer science course, mine was the first year
+           they offered the class. They had a math teacher teaching it that had no programming 
+            experience. 
+        0 I graduated in 2000, and couldn't afford college, so I started hitch hiking and riding 
+           freight trains around America
+     2.trains.png
+
+     
+          Here’s 30 seconds of the kind of freedom that that gives you
+     xx-trains-sample.mp4
+            
+            B.  I mostly got by with being broke but worked cooking in restaurants whenever 
+                  I was in a town.
+        0 in 2004, I moved to Berlin/ Rigaer Str. with no money, no return ticket, and
+          didn’t speak a word of german.
+
+
+    + Having no money and traveling requires quite a bit of improvisation and adaptability. 
+        0 freight trains never go where you want them to; there are no public schedules, and 
+           This is probably the best train map you'll find. 
+     4-trainmap.png - average train map in the states
+              A. Sometimes you get dropped off 30 km out of town and have no option 
+                   aside from walking. 
+              B. Sometimes you get kicked out of cities and are told to just start walking.  
+                 Like Danville, Kentucky 
+      5-danville-ky.png
+                 and Cumberland, Maryland
+      6-cumberland-my.png
+
+
+        0 you learn to just roll with situations, stay level headed, and figure
+          things out as they develop. If you decide you can't deal with the situation, you would 
+           literally just be stuck where you are. 
+        0 In Berlin, living in collective houses with over 50 people in it was total chaos. But
+           it also offered the unique opportunity to connect to the a larger collective of like.
+           minded people. 
+
+    + Despite all of my traveling I was always very into technology
+        0 I've always loved computers and the internet.  While people were squinting at 4 player
+          split screen golden eye, I built my first network with coax cables to play quake 1 
+          online with 16 people 
+      7-quake.png -I'm fairly sure this was not an actual ad for quake, but when I found 
+          it I couldn't pass it up
+
+
+       0 For a time we rode trains with a laptop and a handheld GPS, obtained by admittedly 
+          questionable means
+        0 Although professionally I skipped between cook and bum, tech-wise, I always built whatever I 
+          needed in whatever language was necessary. I wrote inventory and recipe trackers 
+          for kitchens, as well assorted websites for friends. 
+        0 I kept most of the tech in the collectives in our house running, and attempted to give 
+          connectivity to a house that was very determined to remain in the 90s
+
+
+
+DIY (in Punk) - Why? 5
+      8-diy-punk.png
+    + DIY in punk thrives on community
+        0 with over 50 people living in one collective house, there was plenty of 
+          (possible) manpower, plenty of (possible) creativity.
+        0 Smaller collective spaces were organized within the house and opened various 
+          spaces up to the public as bars, bike shops, etc.  In turn these spaces provided an 
+          income for people that couldn’t work otherwise.
+        0 On a house scale, our house was a member of a larger collective of other area punk 
+          houses that would help and protect each other
+    + We would get whatever we could to turn it into what we needed by any means possible
+        0 some people just stole. mostly shoplifting
+        0 The local dumpsters of all manner of shops were common targets as well.  You might 
+          never believe what people actually throw away.
+        0 I was mostly into scavenging from the streets. Old furniture, street signs, piles of wood.
+          All fair game.
+    +
+        0 One such place I lived was Rigaer Str. 84 
+     3-r84.png
+          in Berlin.  56 people plus guests lived there. Many guests essentially lived there 
+          as permanent rent free inhabitants, so that pushes the number of people up to almost 70.
+          It was a place that had it’s own bar, it’s own cafe, bar, movie theatre, bike space, 
+          metal shop, wood shop, and a band practice space.  All self built and collectively 
+          run. You could essentially do anything you wanted if you could track down the person 
+          with the keys.
+        0 This was the door to the Rigaer 84 bar, the Kontrollpunkt.  It was also lovingly known 
+          as the Kellerloch, or ‘basement hole’.  The entrance was literally a metal covered hole in 
+          the sidewalk.
+      9-kontrollpunkt.png
+        0 Every year teams from around Europe would build bikes to bring to Copenhagen for the 
+          Bike Wars with events such as tall bike jousting
+     10-jousting.png
+          and the monster bikes.  
+     11-bike-wars.png
+      or 
+     xx-bike-wars-sample.mp4 
+          Giant self built bike machines destroying each other until there was a victor
+
+          Rigaer 84 burnt down in mid 2007, but i found this while looking for pictures of 
+          and I figured i’d share it.
+     12-r84-closed.png
+          we are definitely closed, but respect to whoever came back to change the profile picture
+
+
+
+DIY (in Dev) - Why? 5
+     13-diy-dev.png
+    + You can apply the same idea of inventiveness and improvisation to development, once you 
+          define the problem
+        0 Is there an existing tool that does what you need to do? If not how close is it?
+        0 How long would it take you to get familiar enough with it to fix if it breaks or 
+          to adapt your workflow around it?
+        0 and Why should you have to adapt your workflow anyways?! You work how you work.  It’s 
+          almost always better to adapt to a better way, but why should you adapt to someone 
+          else’s workflow just to use a tool briefly?
+    + The are, however, some realities to reinventing the wheel
+        0 There are probably other people out there developing the exact same thing
+          with a headstart and/or a bigger team.
+        0 So, what unique goal can your tool accomplish?
+        0 Even on similar tasks, how fast is it comparatively? 1/10th of a millisecond on a 
+          single operation is huge when compared to how many times it may be doing that 
+          operations
+    + But there is an upside!
+        0 In the end you have something much better if you know exactly how it works, how to fix 
+          it, how to add features.
+        0 You can add and remove features or fix problems whenever necessary; Its like reading a 
+          book written in your own handwriting
+
+
+Sushi 7
+     + In July 2013 I was hired at Sociomantic Labs writing making banners in CSS. It was my first 
+       non-freelance tech job.
+    + This 
+     14-mantaray.png
+     or 
+     Mantaray
+     was Mantaray. Mantaray was our in-house live css editor and the center of our 
+     team’s workflow.  The only problem was that Mantaray sucked.
+
+        0 The live css editor was great, but the text field was just that.  A black text 
+          box with green writing, not monospace, bad whitespace. such Matrix.
+        0 no UI to speak of, except for the buttons that (presumably) had done something in 
+          the past.
+        0 It was unusable as an editor; the “live” aspect was we would write code in sublime and 
+          paste it into the field.  Then the CSS on the other side would change to fit the code.
+          Traditionally speaking, thats not how a live editor works.
+    + We decided to replace it with a real editor
+     15-ace.png
+        0 me and a co-worker each took a side, to investigate whether or not we
+          should write our own text editor to replace mantaray or use ACE.  He
+          started investigating ACE and I just started writing the text editor.
+        0 i didnt even know where to start
+      16-stackoverflow.png
+        0 i built a contenteditable div and prayed to the gods of stack overflow
+        0 i don’t think anything was ever technically decided.  2 weeks later my coworker 
+          came back to me with reasons that we should use ACE, and I showed him the first 
+          working version of a text editor
+    + A couple months of that and we had Chibchan 
+     17-chibchan.png
+     or
+     Chibchan
+        0 Live CSS editor with context highlighting and autocomplete.
+        0 Saves and loads into localstorage; autosave every 5 minutes or if you
+          leave the page
+        0 
+     + At some point Chibchan reached as far as it could.  In worked well, but had no 
+       contextual knowledge of what line or character you were on To continue we needed to 
+       start from scratch so we could reimagine the core, which became Sushi
+     16-sushi-ace.png
+     or
+     Sushi
+         0 Sushi which is build mostly in vanilla js, The only framework included is Microbe.
+         0 It is built to be included in a page and live edit anything there.
+
+         0 
+
+
+Microbe 7
+Microbe is a framework built by our team tailored for our needs.
+     17-µ.png
+    + Frameworks can be unfamiliar and less-adjustable than you need
+        0 Should you learn an entire framework for just one project?
+        0 What if the implementation isn't exactly what you need?
+        0 How does the framework work under the surface?
+    + Microbe has a number of challenges to overcome.
+        0 unique to our needs and open source can be mutually exclusive
+        0 in some aspects of microbe, it competes with large frameworks that are contributed 
+          to by lots of people
+        0 if the speed gains are minimal it may not be worth it
+    + Testing was necessary.                             RESULT (DEFEAT)
+        0 Speed tests show the reality of the situation
+     18-testing.png
+        0 the methods of it have developed as needed in Sushi and have continued to expanded
+          from there
+        0 keep reading, keep learning, keep improving
+
+
+Reflect 1
+     19-info.png
+DIY might not be the easy way out, but it can lead to using advanced custom tools that developers know every inch of the code to.
